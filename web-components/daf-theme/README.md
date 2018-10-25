@@ -8,9 +8,15 @@ As technology continues to shift and grow, a gap continues to emerge in how Ente
 
 The Dynamic Application Theme supports a configuration driven development experience that separates developers from the technology infrastructure configured by enterprise engineers.  This enables developers to create solutions against an application spec that enterprise managers can configure to their platform.
 
-## Getting started
+## Installing / Getting started
 
-The Dynamic Application Theme contains a number of implementations that support the Dynamic Application Schema - Theme Configuration.  Providing a number of Just-in-Time and Ahead-of-Time compilation engines for reading and rendering the Theme Configuration data.
+This repository contains the Dynamic Application Theme Framework.  To get started install the dynamic-application-theme:
+
+```shell
+npm install @fathym-forge/daf-theme
+```
+
+This will install the package locally to your system for consumption in your project.
 
 ### TypeScript Quick Start
 
