@@ -1,6 +1,6 @@
 {
   "name": "@fathym-forge/daf-theme",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "private": false,
   "main": "dist/dynamic-application-schema.umd.js",
   "scripts": {

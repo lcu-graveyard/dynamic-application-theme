@@ -1,12 +1,39 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      Hi
     </div>
-    <router-view/>
   </div>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import { ThemeConfiguration } from '@fathym-forge/daf-schema-typescript';
+
+@Component({
+  components: {
+  },
+})
+export default class DAFTheme extends Vue {
+  //  Fields
+
+  //  Properties
+  @Prop({default: new ThemeConfiguration()})
+  public Theme: ThemeConfiguration;
+
+  //  Constructors
+  constructor() {
+    super();
+
+    this.Theme = new ThemeConfiguration();
+  }
+
+  //  API Methods
+
+  //  Helpers
+  
+}
+</script>
 
 <style lang="scss">
 #app {
