@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import App from './DAFTheme.vue';
-import wrap from '@vue/web-component-wrapper';
-import VueWebComponent from './components/VueWebComponent';
+// import wrap from '@vue/web-component-wrapper';
+const wrapper = require('@vue/web-component-wrapper');
 
-const CustomElement = wrap(Vue, VueWebComponent);
+const CustomElement = wrapper.wrap(Vue, App);
 
-window.customElements.define('my-custom-element', CustomElement);
+window.customElements.define('daf-theme', CustomElement);

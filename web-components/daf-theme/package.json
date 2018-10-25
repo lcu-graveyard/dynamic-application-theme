@@ -1,13 +1,13 @@
 {
   "name": "@fathym-forge/daf-theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "main": "dist/dynamic-application-schema.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "npm run build:umd",
+    "build": "npm run build:wc",
     "build-deploy": "npm version patch && npm run build && npm run deploy",
-    "build:umd": "vue-cli-service build --target lib --name dynamic-application-theme src/main.ts",
+    "build:wc": "vue-cli-service build --target wc --name daf-theme src/DAFTheme.vue",
     "deploy": "npm publish --access public",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
@@ -24,7 +24,7 @@
   },
   "peerDependencies": {
     "@fathym-forge/daf-schema-json": "0.0.4",
-    "@fathym-forge/daf-schema-protobuf": "0.0.6",
+    "@fathym-forge/daf-schema-protobuf": "0.0.6"
   },
   "devDependencies": {
     "@types/chai": "^4.1.0",
@@ -35,8 +35,8 @@
     "@vue/cli-plugin-typescript": "^3.0.5",
     "@vue/cli-plugin-unit-mocha": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
-    "@vue/web-component-wrapper": "1.2.0",
     "@vue/test-utils": "^1.0.0-beta.20",
+    "@vue/web-component-wrapper": "^1.2.0",
     "chai": "^4.1.2",
     "lint-staged": "^7.2.2",
     "node-sass": "^4.9.0",
