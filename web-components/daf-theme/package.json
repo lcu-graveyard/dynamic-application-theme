@@ -1,8 +1,8 @@
 {
   "name": "@fathym-forge/daf-theme",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "private": false,
-  "main": "dist/dynamic-application-schema.umd.js",
+  "main": "dist/dynamic-application-theme.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:wc",
