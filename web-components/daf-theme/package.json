@@ -14,7 +14,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "@fathym-forge/daf-schema-typescript": "0.0.6",
+    "@fathym-forge/daf-schema-typescript": "0.0.7",
     "register-service-worker": "^1.0.0",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
