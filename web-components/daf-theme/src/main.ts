@@ -5,9 +5,8 @@ import './registerServiceWorker';
 
 Vue.config.productionTip = false;
 
-// import wrap from '@vue/web-component-wrapper';
-const wrapper = require('@vue/web-component-wrapper');
+import wrap from '@vue/web-component-wrapper';
 
-const CustomElement = wrapper.wrap(Vue, DAFTheme);
+const CustomElement = wrap(Vue, DAFTheme);
 
 window.customElements.define('daf-theme', CustomElement);

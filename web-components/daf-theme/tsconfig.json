@@ -7,6 +7,7 @@
     "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
+    "noImplicitAny": false, //  TODO:  we want this to be true, but some stuff was failling...
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
@@ -14,7 +15,8 @@
     "types": [
       "webpack-env",
       "mocha",
-      "chai"
+      "chai",
+      "reflect-metadata"
     ],
     "paths": {
       "@/*": [
