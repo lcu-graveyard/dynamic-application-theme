@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import { Component, Vue, Prop, Inject } from 'vue-property-decorator';
-import { ThemeConfiguration } from '@fathym-forge/daf-schema-typescript';
+import { ThemeConfiguration } from '@smart-matrix/smart-schema-typescript';
 import IoC, { IoCType } from './inversify.config';
 import { ThemeCompiler, IThemeCompilerType, IThemeCompiler } from './svc/ThemeCompiler';
 import { Container } from 'inversify';

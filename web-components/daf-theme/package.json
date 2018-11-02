@@ -2,7 +2,7 @@
   "name": "@fathym-forge/daf-theme",
   "version": "0.0.6",
   "private": false,
-  "main": "dist/dynamic-application-theme.common.js",
+  "main": "dist/dynamic-application-theme.umd",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run build:wc",
@@ -15,7 +15,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "@fathym-forge/daf-schema-typescript": "0.0.21",
+    "@smart-matrix/smart-schema-typescript": "0.0.8",
     "inversify": "^5.0.1",
     "reflect-metadata": "^0.1.12",
     "register-service-worker": "^1.0.0",

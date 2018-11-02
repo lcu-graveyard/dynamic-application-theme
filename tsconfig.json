@@ -1,4 +1,6 @@
 {
+  "target": "es5",
+  "module": "es2015",
   "compilerOptions": {
     "experimentalDecorators": true,
     "allowJs": true

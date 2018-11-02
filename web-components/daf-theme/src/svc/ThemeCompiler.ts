@@ -1,6 +1,7 @@
 import { IThemeCompiler } from './ThemeCompiler';
 import { injectable } from 'inversify';
-import { ThemeConfiguration } from '@fathym-forge/daf-schema-typescript';
+
+import { ThemeConfiguration } from '@smart-matrix/smart-schema-typescript';
 
 export interface IThemeCompiler {
     CompileTheme(theme: ThemeConfiguration): string;
